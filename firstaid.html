@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Aid Supplies - MediCare Plus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .firstaid-hero {
+            background-image: url('https://images.unsplash.com/photo-1631549916768-b5d8652bd465?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+            height: 60vh;
+        }
+        .firstaid-category {
+            padding: 2rem;
+            margin: 2rem 0;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        .firstaid-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        .firstaid-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        .firstaid-item:hover {
+            transform: translateY(-5px);
+        }
+        .usage-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: #ffebee;
+            color: #c62828;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            margin: 0.25rem;
+        }
+        .emergency-info {
+            background: #fff3e0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        .emergency-info h3 {
+            color: #e65100;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>MediCare<span>Plus</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="prescription.html">Prescription</a></li>
+                <li><a href="vitamins.html">Vitamins</a></li>
+                <li><a href="firstaid.html" class="active">First Aid</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero firstaid-hero">
+            <div class="hero-content">
+                <h2>First Aid Supplies</h2>
+                <p>Be prepared for emergencies with our quality first aid products</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="emergency-info">
+                <h3><i class="fas fa-exclamation-triangle"></i> Emergency Information</h3>
+                <p>In case of a medical emergency, dial 911 immediately. These first aid supplies are for minor injuries and should not replace professional medical care.</p>
+            </div>
+
+            <div class="firstaid-category">
+                <h3>First Aid Kits</h3>
+                <div class="firstaid-grid">
+                    <div class="firstaid-item">
+                        <h4>Basic First Aid Kit</h4>
+                        <p class="price">$29.99</p>
+                        <div class="tags">
+                            <span class="usage-tag">Home Use</span>
+                            <span class="usage-tag">Travel</span>
+                        </div>
+                        <p>Essential first aid supplies for common injuries</p>
+                        <ul>
+                            <li>Bandages and gauze</li>
+                            <li>Antiseptic wipes</li>
+                            <li>Medical tape</li>
+                            <li>First aid guide</li>
+                        </ul>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="firstaid-item">
+                        <h4>Deluxe First Aid Kit</h4>
+                        <p class="price">$49.99</p>
+                        <div class="tags">
+                            <span class="usage-tag">Professional</span>
+                            <span class="usage-tag">Comprehensive</span>
+                        </div>
+                        <p>Complete first aid kit for various emergencies</p>
+                        <ul>
+                            <li>100+ pieces</li>
+                            <li>Emergency blanket</li>
+                            <li>CPR mask</li>
+                            <li>Cold/hot pack</li>
+                        </ul>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="firstaid-category">
+                <h3>Bandages & Dressings</h3>
+                <div class="firstaid-grid">
+                    <div class="firstaid-item">
+                        <h4>Adhesive Bandages Pack</h4>
+                        <p class="price">$8.99</p>
+                        <div class="tags">
+                            <span class="usage-tag">Waterproof</span>
+                            <span class="usage-tag">Flexible</span>
+                        </div>
+                        <p>Assorted sizes of adhesive bandages</p>
+                        <ul>
+                            <li>Various sizes included</li>
+                            <li>Latex-free</li>
+                            <li>Strong adhesive</li>
+                        </ul>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="firstaid-item">
+                        <h4>Sterile Gauze Pads</h4>
+                        <p class="price">$12.99</p>
+                        <div class="tags">
+                            <span class="usage-tag">Sterile</span>
+                            <span class="usage-tag">Absorbent</span>
+                        </div>
+                        <p>High-quality sterile gauze pads</p>
+                        <ul>
+                            <li>Multiple sizes available</li>
+                            <li>Individually wrapped</li>
+                            <li>Highly absorbent</li>
+                        </ul>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="firstaid-category">
+                <h3>First Aid Supplies</h3>
+                <div class="firstaid-grid">
+                    <div class="firstaid-item">
+                        <h4>Antiseptic Solution</h4>
+                        <p class="price">$6.99</p>
+                        <div class="tags">
+                            <span class="usage-tag">Wound Care</span>
+                            <span class="usage-tag">Disinfectant</span>
+                        </div>
+                        <p>For cleaning wounds and preventing infection</p>
+                        <ul>
+                            <li>No-sting formula</li>
+                            <li>Travel-friendly size</li>
+                            <li>With applicator</li>
+                        </ul>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="firstaid-item">
+                        <h4>Medical Tape Set</h4>
+                        <p class="price">$7.99</p>
+                        <div class="tags">
+                            <span class="usage-tag">Strong Hold</span>
+                            <span class="usage-tag">Skin-Friendly</span>
+                        </div>
+                        <p>Various medical tapes for different needs</p>
+                        <ul>
+                            <li>Paper and cloth tape</li>
+                            <li>Easy tear design</li>
+                            <li>Hypoallergenic</li>
+                        </ul>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="firstaid-category">
+                <h3>First Aid Products</h3>
+                <div class="firstaid-grid">
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1631549916768-b5d8652bd465?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="First Aid Kit">
+                        <div class="product-details">
+                            <h3>Complete First Aid Kit</h3>
+                            <p class="price">$49.99</p>
+                            <p class="description">Comprehensive first aid kit for emergencies.</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1584017911766-d451b3d0e843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bandages">
+                        <div class="product-details">
+                            <h3>Bandages & Dressings</h3>
+                            <p class="price">$8.99</p>
+                            <p class="description">Various sizes of sterile bandages and dressings.</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Antiseptic">
+                        <div class="product-details">
+                            <h3>Antiseptic Solution</h3>
+                            <p class="price">$12.99</p>
+                            <p class="description">Medical-grade antiseptic for wound cleaning.</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shopping-cart">
+            <div id="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <div id="cart-sidebar" class="hidden">
+                <h3>Shopping Cart</h3>
+                <div id="cart-items"></div>
+                <div class="cart-total">
+                    <p>Total: <span id="cart-total-amount">$0.00</span></p>
+                    <button id="checkout-btn">Proceed to Checkout</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="products.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+                <p><i class="fas fa-envelope"></i> info@medicareplus.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Health Street, Medical District</p>
+            </div>
+            <div class="footer-section">
+                <h3>Hours</h3>
+                <p>Monday - Friday: 8:00 AM - 9:00 PM</p>
+                <p>Saturday: 9:00 AM - 7:00 PM</p>
+                <p>Sunday: 10:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MediCare Plus. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

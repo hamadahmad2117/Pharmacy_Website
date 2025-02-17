@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - MediCare Plus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>MediCare<span>Plus</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="products-page">
+        <section class="products-hero">
+            <h1>Our Products</h1>
+            <p>Browse through our wide range of healthcare products</p>
+        </section>
+
+        <section class="product-categories">
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="otc">Over-the-Counter</button>
+                <button class="filter-btn" data-category="personal">Personal Care</button>
+                <button class="filter-btn" data-category="baby">Baby Care</button>
+                <button class="filter-btn" data-category="devices">Medical Devices</button>
+            </div>
+
+            <div class="product-search">
+                <input type="text" id="product-search" placeholder="Search products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Over-the-Counter Medicines -->
+                <div class="product-item" data-category="otc">
+                    <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pain Relief">
+                    <div class="product-details">
+                        <h3>Pain Relief Medication</h3>
+                        <p class="price">$12.99</p>
+                        <p class="description">Fast-acting pain relief for headaches and body pain.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="otc">
+                    <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cold & Flu Relief">
+                    <div class="product-details">
+                        <h3>Cold & Flu Relief</h3>
+                        <p class="price">$15.99</p>
+                        <p class="description">Complete relief from cold and flu symptoms.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Personal Care -->
+                <div class="product-item" data-category="personal">
+                    <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dental Care">
+                    <div class="product-details">
+                        <h3>Dental Care Kit</h3>
+                        <p class="price">$19.99</p>
+                        <p class="description">Complete dental hygiene kit.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="personal">
+                    <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Skincare">
+                    <div class="product-details">
+                        <h3>Skincare Products</h3>
+                        <p class="price">$24.99</p>
+                        <p class="description">Essential skincare items for daily use.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Baby Care -->
+                <div class="product-item" data-category="baby">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Baby Essentials">
+                    <div class="product-details">
+                        <h3>Baby Care Essentials</h3>
+                        <p class="price">$34.99</p>
+                        <p class="description">Complete baby care kit with essentials.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="baby">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Baby Formula">
+                    <div class="product-details">
+                        <h3>Baby Formula</h3>
+                        <p class="price">$27.99</p>
+                        <p class="description">Nutritious baby formula for healthy growth.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Medical Devices -->
+                <div class="product-item" data-category="devices">
+                    <img src="https://images.unsplash.com/photo-1631549916768-b5d8652bd465?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Blood Pressure Monitor">
+                    <div class="product-details">
+                        <h3>Digital Blood Pressure Monitor</h3>
+                        <p class="price">$59.99</p>
+                        <p class="description">Accurate blood pressure monitoring at home.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="devices">
+                    <img src="https://images.unsplash.com/photo-1584017911766-d451b3d0e843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Thermometer">
+                    <div class="product-details">
+                        <h3>Digital Thermometer</h3>
+                        <p class="price">$15.99</p>
+                        <p class="description">Fast and accurate temperature measurement.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shopping-cart">
+            <div id="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <div id="cart-sidebar" class="hidden">
+                <h3>Shopping Cart</h3>
+                <div id="cart-items"></div>
+                <div class="cart-total">
+                    <p>Total: <span id="cart-total-amount">$0.00</span></p>
+                    <button id="checkout-btn">Proceed to Checkout</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Working Hours</h3>
+                <p>Monday - Friday: 8:00 AM - 9:00 PM</p>
+                <p>Saturday - Sunday: 9:00 AM - 7:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MediCare Plus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+</body>
+</html>
