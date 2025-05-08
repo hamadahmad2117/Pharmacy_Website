@@ -66,6 +66,7 @@
             <div class="hero-content">
                 <h2>Vitamins & Supplements</h2>
                 <p>Support your health with our quality supplements</p>
+                <p>Boost your health with our premium vitamins & Supplements products</p>
             </div>
         </section>
 
@@ -88,7 +89,7 @@
                                 <li>Once daily formula</li>
                                 <li>Suitable for adults</li>
                             </ul>
-                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="add-to-cart" data-name="Daily Multivitamin Complex" data-price="29.99">Add to Cart</button>
                         </div>
                     </div>
                     <div class="vitamin-item">
@@ -106,7 +107,7 @@
                                 <li>Supports reproductive health</li>
                                 <li>With folic acid</li>
                             </ul>
-                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="add-to-cart" data-name="Women's Multivitamin" data-price="32.99">Add to Cart</button>
                         </div>
                     </div>
                 </div>
@@ -130,7 +131,7 @@
                                 <li>Enhances immune function</li>
                                 <li>Easy-to-swallow softgels</li>
                             </ul>
-                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="add-to-cart" data-name="Vitamin D3 5000 IU" data-price="18.99">Add to Cart</button>
                         </div>
                     </div>
                     <div class="vitamin-item">
@@ -148,7 +149,7 @@
                                 <li>Antioxidant protection</li>
                                 <li>Time-release formula</li>
                             </ul>
-                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="add-to-cart" data-name="Vitamin C 1000mg" data-price="15.99">Add to Cart</button>
                         </div>
                     </div>
                 </div>
@@ -172,7 +173,7 @@
                                 <li>Mercury-free</li>
                                 <li>Lemon flavored</li>
                             </ul>
-                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="add-to-cart" data-name="Omega-3 Fish Oil" data-price="24.99">Add to Cart</button>
                         </div>
                     </div>
                     <div class="vitamin-item">
@@ -190,27 +191,27 @@
                                 <li>Shelf-stable formula</li>
                                 <li>With prebiotic fiber</li>
                             </ul>
-                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="add-to-cart" data-name="Vitamin D3" data-price="27.99">Add to Cart</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="shopping-cart">
+        <div class="shopping-cart">
             <div id="cart-icon">
                 <i class="fas fa-shopping-cart"></i>
                 <span class="cart-count">0</span>
             </div>
             <div id="cart-sidebar" class="hidden">
-                <h3></h3>
+                <h3>Your Cart</h3>
                 <div id="cart-items"></div>
                 <div class="cart-total">
-                    <p>Total: <span id="cart-total-amount">$0.00</span></p>
+                    <p>Total: $<span id="cart-total">$0.00</span></p>
                     <button id="checkout-btn">Proceed to Checkout</button>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     
     <footer>
@@ -242,5 +243,6 @@
         </div>
     </footer>
     <script src="products.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93ae5c127ef8ada4',t:'MTc0NjQyODQxMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
 </body>
 </html>
