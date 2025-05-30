@@ -17,7 +17,7 @@
             margin: 2rem 0;
             background: #fff;
             border-radius: 10px;
-            box-shadow: 0 2px .visibility15px rgba(0,0,0,0.1);
+            box-shadow: 0 2px visibility15px rgba(0,0,0,0.1);
         }
         .vitamin-grid {
             display: grid;
@@ -255,6 +255,22 @@
                 </div>
             </div>
         </div>
+        <div class="chatbot-container">
+            <div id="chatbot-button" class="chatbot-icon">
+                <i class="fas fa-comment"></i>
+            </div>
+            <div id="chatbot-window" class="chatbot-window hidden">
+                <div class="chatbot-header">
+                    <h3>MediCarePlus Assistant</h3>
+                    <button id="chatbot-close">✖</button>
+                </div>
+                <div id="chatbot-messages" class="chatbot-messages"></div>
+                <form id="chatbot-form">
+                    <input type="text" id="chatbot-input" placeholder="Ask about medications, services, or more..." required>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
     </main>
     
     <footer>
@@ -297,5 +313,6 @@
     </footer>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="Cart.js"></script>
+    <script src="AI.js"></script>
 </body>
 </html>

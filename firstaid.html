@@ -306,6 +306,22 @@
                 </div>
             </div>
         </section>
+        <div class="chatbot-container">
+            <div id="chatbot-button" class="chatbot-icon">
+                <i class="fas fa-comment"></i>
+            </div>
+            <div id="chatbot-window" class="chatbot-window hidden">
+                <div class="chatbot-header">
+                    <h3>MediCarePlus Assistant</h3>
+                    <button id="chatbot-close">✖</button>
+                </div>
+                <div id="chatbot-messages" class="chatbot-messages"></div>
+                <form id="chatbot-form">
+                    <input type="text" id="chatbot-input" placeholder="Ask about medications, services, or more..." required>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -345,5 +361,6 @@
         </div>
     </footer>
     <script src="Cart.js"></script>
+    <script src="AI.js"></script>
 </body>
 </html>
